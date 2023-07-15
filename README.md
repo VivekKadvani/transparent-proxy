@@ -62,6 +62,11 @@ make sure address must need to change.
 
 ## Note
 
-- etherscan not support proxy pattern
+- In etherscan we need to verify proxy with its impleentation.
+- go to deployed proxy and click on more option and clikc on "is it proxy ?"
+- than it is automatically fetch implementation address
+- for this step your implementation contract must be verified
+- after that you can click on verify proxy and save.
+- than you can use our proxy calls via etherscan.
 
 ## .env variable
